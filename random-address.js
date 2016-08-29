@@ -11,10 +11,9 @@ var street = ['Dolphin Street', 'Station Street', 'High Street', 'Elizabeth Stre
 var city = ['Sydney', 'Melbourne', 'Hobart', 'Perth', 'Brisbane', 'Adelaide', 'Canberra', 'Darwin', 'Cairns', 'Wagga Wagga' ];
 var postcode = [3621, 7865, 2456, 7895];
 
-var random1 = Math.floor(Math.random() * 10)
-var random2 = Math.floor(Math.random() * 10)
-var random3 = Math.floor(Math.random() * 10)
-var random4 = Math.floor(Math.random() * 4)
-
+var random1 = Math.floor(Math.random() * number.length)
+var random2 = Math.floor(Math.random() * street.length)
+var random3 = Math.floor(Math.random() * city.length)
+var random4 = Math.floor(Math.random() * postcode.length)
 
 console.log( number[random1] + ', ' + street[random2] + ', ' + city[random3] + ', ' + postcode[random4]);
